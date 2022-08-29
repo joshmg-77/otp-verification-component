@@ -1,29 +1,28 @@
-
 * {
- margin: 0;
- padding: 0; 
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 input {
   width: 35px;
   height: 35px;
   margin: 0 4px;
-  padding: 0 2.5px; /* 0 12.5px*/
+  padding: 0 2.5px;
   text-align: center;
   font-size: 20px;
   border: 2px solid #8d8686;
   border-radius: 4px;
-  transform: translate(0,0);
+  transform: translate(0, 0);
   background: rgba(0, 0, 0, 0.1);
 }
-input[type="text"]:focus {
+input[type='text']:focus {
   animation: animateBox 0.1s linear alternate;
 }
 
 @keyframes animateBox {
   0% {
-    transform: rotate(4deg);    
+    transform: rotate(4deg);
   }
   50% {
     transform: rotate(-4deg);
@@ -33,7 +32,6 @@ input[type="text"]:focus {
   }
 }
 
-
 .container-confirmation {
   width: auto;
   max-width: 700px;
@@ -41,7 +39,7 @@ input[type="text"]:focus {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 @media only screen and (min-width: 720px) {
@@ -50,22 +48,15 @@ input[type="text"]:focus {
     height: 50px;
     padding: 0 12.5px;
   }
-  
-  .separator-2 {
-    margin-right: 50px;
-  }
-  .separator-3 {
-    margin-right: 50px;
-  }
-  .separator-4 {
-    margin-right: 50px;
-  }
+
+  .separator-2,
+  .separator-3,
+  .separator-4,
   .separator-6 {
     margin-right: 50px;
-  }  
+  }
 }
 
-.container-confirmation input:last-child  {
+.container-confirmation input:last-child {
   margin-right: 4px;
 }
-

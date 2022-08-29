@@ -1,26 +1,54 @@
 {
-  "name": "react-typescript",
-  "version": "1.0.0",
+  "name": "@joshmg-77/otp-component",
+  "version": "0.0.5-development",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "OTP Verification Component",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "rm -rf dist && tsc && vite build",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "homepage": "https://github.com/joshmg-77/otp-component#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshmg-77/otp-component"
   },
+  "keywords": [
+    "OTP",
+    "one time password",
+    "verification",
+    "Component",
+    "React",
+    "red-beard-04"
+  ],
+  "author": "joshmg-77",
+  "license": "MIT",
   "devDependencies": {
+    "@types/node": "^17.0.12",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
     "react": "^18.2.0",
-		"react-dom": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^4.7.4",
-    "typescript-language-server": "^0.11.2",
-    "vite": "^3.0.4"
+    "vite": "^3.0.4",
+    "vite-plugin-dts": "^1.4.1",
+    "vite-plugin-libcss": "^1.0.5"
+  },
+  "files": [
+    "dist",
+    "README"
+  ],
+  "main": "./dist/OTPComponent.umd.js",
+  "module": "./dist/OTPComponent.es.js",
+  "types": "./dist/OTPComponent.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/OTPComponent.es.js",
+      "require": "./dist/OTPComponent.umd.js"
+    }
+  },
+  "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
