@@ -1,6 +1,6 @@
 {
   "name": "@joshmg-77/otp-component",
-  "version": "0.0.5-development",
+  "version": "1.0.0",
   "type": "module",
   "description": "OTP Verification Component",
   "scripts": {
@@ -8,10 +8,10 @@
     "build": "rm -rf dist && tsc && vite build",
     "preview": "vite preview"
   },
-  "homepage": "https://github.com/joshmg-77/otp-component#readme",
+  "homepage": "https://github.com/joshmg-77/otp-verification-component#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshmg-77/otp-component"
+    "url": "https://github.com/joshmg-77/otp-verification-component"
   },
   "keywords": [
     "OTP",
