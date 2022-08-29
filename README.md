@@ -51,4 +51,5 @@ import OTPComponent from '@joshmg-77/otp-component'
 
 **Preview**
 
+![src-App tsx - SteepTreasuredCheckpoint - Replit 2022-08-28 21-15-02](https://user-images.githubusercontent.com/53126628/187118129-9147c680-9318-4e8c-b373-882c9c925383.png)
 
