@@ -1,11 +1,10 @@
 {
-  "files.autoGuessEncoding": false,
   "files.exclude": {
-    "np": true,
-    "dist": false,
     "node_modules": "explorerExcludedFiles",
     ".DS_Store": "explorerExcludedFiles",
+    "dist": "explorerExcludedFiles",
     "dist-ssr": "explorerExcludedFiles",
-    "*.local": "explorerExcludedFiles"
+    "*.local": "explorerExcludedFiles",
+    ".vscode": "explorerExcludedFiles"
   }
 }
